@@ -128,8 +128,8 @@ function facerotate(objects, axis, time){
             rz = objects[i].rotation.z;
             newx = Math.pow(px * px + py * py, 0.5) * Math.cos(r + Math.atan2(py, px));
             newy = Math.pow(px * px + py * py, 0.5) * Math.sin(r + Math.atan2(py, px));
-            //objects[i].position.x = newx;
-            //objects[i].position.y = newy;
+            objects[i].position.x = newx;
+            objects[i].position.y = newy;
             rotateAroundWorldAxis(objects[i], axis, r);           
         }
     }else if(axis.y == 1){
@@ -140,8 +140,8 @@ function facerotate(objects, axis, time){
             rz = objects[i].rotation.y;
             newx = Math.pow(px * px + py * py, 0.5) * Math.cos(-r + Math.atan2(py, px));
             newy = Math.pow(px * px + py * py, 0.5) * Math.sin(-r + Math.atan2(py, px));
-            //objects[i].position.x = newx;
-            //objects[i].position.z = newy;
+            objects[i].position.x = newx;
+            objects[i].position.z = newy;
             rotateAroundWorldAxis(objects[i], axis, r); 
         }
     }else if(axis.x == 1){
@@ -152,8 +152,8 @@ function facerotate(objects, axis, time){
             rz = objects[i].rotation.x;
             newx = Math.pow(px * px + py * py, 0.5) * Math.cos(-r + Math.atan2(py, px));
             newy = Math.pow(px * px + py * py, 0.5) * Math.sin(-r + Math.atan2(py, px));
-            //objects[i].position.z = newx;
-            //objects[i].position.y = newy;
+            objects[i].position.z = newx;
+            objects[i].position.y = newy;
             rotateAroundWorldAxis(objects[i], axis, r); 
         }
     } 
