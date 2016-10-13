@@ -1,4 +1,5 @@
 # SimpleRubiksCube
+![Preview](https://github.com/miniwangdali/SimpleRubiksCube/blob/master/preview.png?raw=true)
 * 一个相当简单的魔方。
  [点击这里打开魔方页面](http://miniwangdali.github.io/rubikscube/RubiksCube.html)
 * A quite simple Rubik's Cube.
