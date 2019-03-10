@@ -6,5 +6,5 @@
  [Click here to open a new page for the cube.](http://miniwangdali.github.io/rubikscube/RubiksCube.html)
 * [制作过程简介  How to do it](https://www.daydreamqian.cc/rubikscube/) 
  
-这个只是我自己简单入门下WebGL和[ThreeJS](http://threejs.org/), 试着做做玩的……没什么技术含量，也没有什么卵用
+这个只是我自己简单入门下[WebGL](https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API)和[ThreeJS](http://threejs.org/), 试着做做玩的……没什么技术含量，也没有什么卵用
 
